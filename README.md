@@ -17,8 +17,8 @@ Hypothesis 2: Face recognition is the worst when eyes are covered
 The experiment was created and run on PsychoPy. The PsychoPy file can be found <a href = "https://kristentang.github.io/facerecognitionexperiment/experiment/Experiment.psyexp">here</a> and viewed <a href = "https://kristentang.github.io/facerecognitionexperiment/experiment/Experiment.psyexp.xml">here</a>, and specfics of the experiment methocs can be viewed <a href = "https://kristentang.github.io/facerecognitionexperiment/results/Presentation.pdf">here</a>.
 
 ## Results 
-The data was analyzed using SPSS. 
-<img src = "https://kristentang.github.io/photos/faces1.jpg">
+The data was analyzed using SPSS.\
+<img src = "https://kristentang.github.io/photos/faces1.jpg" width = 50%>
 <img src = "https://kristentang.github.io/photos/faces2.jpg">
 The figure shows the mean forced choice sensitivity over the three conditions. In this study, sensitivity is the ability to identify a previously shown face and discriminate between that face and a distractor face. This shows the highest ability to recognize a previously shown face when nothing is covered and the lowest ability to recognize a previously shown face when the eyes are covered. 
 
