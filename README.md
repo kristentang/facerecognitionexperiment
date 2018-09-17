@@ -1,5 +1,4 @@
 # Varying Effects of the Absence of Facial Features For Facial Recognition
-
 Psychology 186C: Cognitive Science Laboratory: Psychophysical Theories and Methods\
 Professor Gennady Erlikhman\
 Final Project with Jenna Leland and Andrew Youn\
