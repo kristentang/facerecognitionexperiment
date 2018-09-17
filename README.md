@@ -19,7 +19,7 @@ The experiment was created and run on PsychoPy. The PsychoPy file can be found <
 ## Results 
 The data was analyzed using SPSS.\
 <img src = "https://kristentang.github.io/photos/faces1.jpg" width = 50%>
-<img src = "https://kristentang.github.io/photos/faces2.jpg">
+<img src = "https://kristentang.github.io/photos/faces2.jpg" width = 50%>
 The figure shows the mean forced choice sensitivity over the three conditions. In this study, sensitivity is the ability to identify a previously shown face and discriminate between that face and a distractor face. This shows the highest ability to recognize a previously shown face when nothing is covered and the lowest ability to recognize a previously shown face when the eyes are covered. 
 
 <img src = "https://kristentang.github.io/photos/faces3.jpg">
