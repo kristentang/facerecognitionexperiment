@@ -1,0 +1,529 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.85.6">
+  <Settings>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="OSF Project ID" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="Experiment" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="End">
+      <TextComponent name="text_7">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Thank you!" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_7">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_7" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="feedback">
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="msg= 'oops'" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="if key_resp_6.corr == 1:&amp;#10;    msg = &quot;Correct!&quot;&amp;#10;else: &amp;#10;    msg = &quot;Incorrect&quot;&amp;#10;&amp;#10;text_5 = visual.TextStim(win=win, name='text_5',&amp;#10;    text=msg,&amp;#10;    font='Arial',&amp;#10;    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, &amp;#10;    color='white', colorSpace='rgb', opacity=1,&amp;#10;    depth=-1.0);" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_5">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="$msg" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="practice">
+      <ImageComponent name="image_1">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_1" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.45" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Original" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="mask">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="mask" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val=".75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="whitenoise.png" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_3" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".75" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(-.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Same" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_6">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_6" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".75" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Different" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <TextComponent name="text_6">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Which picture most resembled the orginal person.&amp;#10;(Use the left or right arrow keys)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.5" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_6">
+        <Param name="correctAns" updates="constant" val="$CorrectAns" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_6" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.5" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <ImageComponent name="image">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".2" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val=".5" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Original" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_5">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_5" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val=".75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="whitenoise.png" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(-.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Same" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_4" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.75" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Different" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.75)" valType="code"/>
+      </ImageComponent>
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Which picture most resembled the orginal person.&amp;#10;(Use the left or right arrow keys)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.75" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="$CorrectAns" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.75" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="break_2">
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="if trials.thisTrialN not in [40, 80]: &amp;#10;    continueRoutine = False " valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_8">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Good Job! &amp;#10;&amp;#10;Please take a short break. &amp;#10;&amp;#10;The experiment will resume in 20 seconds. " valType="str"/>
+        <Param name="stopVal" updates="constant" val="15" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trialInstructions">
+      <TextComponent name="text_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="You will now begin the experiment. &amp;#10;&amp;#10;Remember, please press the &amp;#10;LEFT arrow key if the picture of the original person is on the left &amp;#10;&amp;#10;and the&amp;#10;RIGHT arrow key if the picture of the original person is on the right &amp;#10;&amp;#10;&amp;#10;&amp;#10;Good luck, have fun, and may the force be with you! &amp;#10;&amp;#10;(Please press any key to begin)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val=".05" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practiceInstructions">
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="You will now begin a practice round. &amp;#10;&amp;#10;Remember, use the &amp;#10;LEFT arrow key if the picture of the original person is on the left &amp;#10;&amp;#10;and the &amp;#10;RIGHT arrow key if the picture of the original person is on the right &amp;#10;&amp;#10;(Press any key to continue.)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val=".05" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Welcome to our experiment.&amp;#10;&amp;#10;You will see a picture of a face then another two following it.&amp;#10;&amp;#10;After viewing the two pictures, please indicate which side the picture of the original person was on using the LEFT and RIGHT arrow keys.&amp;#10;&amp;#10;LEFT arrow key if the picture of the original person is on the left &amp;#10;RIGHT arrow key if the picture of the original person is on the right &amp;#10;&amp;#10;&amp;#10;Thank you&amp;#10;&amp;#10;(Press any key to continue)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions"/>
+    <Routine name="practiceInstructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="conditionsFile" updates="None" val="practice.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'CorrectAns': u'right', 'Different': u&quot;'Faces/practice/1B.jpg&quot;, 'Original': u&quot;'Faces/practice/1A.jpg&quot;, 'SetNum': 1, 'Same': u&quot;'Faces/practice/1C.jpg&quot;}, {'CorrectAns': u'left', 'Different': u&quot;'Faces/practice/2C.jpg&quot;, 'Original': u&quot;'Faces/practice/2A.jpg&quot;, 'SetNum': 2, 'Same': u&quot;'Faces/practice/2B.jpg&quot;}, {'CorrectAns': u'left', 'Different': u&quot;'Faces/practice/3C.jpg&quot;, 'Original': u&quot;'Faces/practice/3A.jpg&quot;, 'SetNum': 3, 'Same': u&quot;'Faces/practice/3B.jpg&quot;}, {'CorrectAns': u'left', 'Different': u&quot;'Faces/practice/4C.jpg&quot;, 'Original': u&quot;'Faces/practice/4A.jpg&quot;, 'SetNum': 4, 'Same': u&quot;'Faces/practice/4B.jpg&quot;}, {'CorrectAns': u'right', 'Different': u&quot;'Faces/practice/5B.jpg&quot;, 'Original': u&quot;'Faces/practice/5A.jpg&quot;, 'SetNum': 5, 'Same': u&quot;'Faces/practice/5C.jpg&quot;}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="practice"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="trialInstructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="excelsheet.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'Different': u&quot;'Faces/Faces1/1C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/1B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 1, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/1A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/2C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/2B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 2, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/2A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/3C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/3B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 3, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/3A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/4C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/4B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 4, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/4A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/5C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/5B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 5, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/5A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/6B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/6C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 6, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/6A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/7B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/7C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 7, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/7A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/8B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/8C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 8, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/8A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/9B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/9C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 9, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/9A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/10B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/10C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 10, 'Covered': u'None', 'Original': u&quot;'Faces/Faces1/10A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/11B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/11C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 11, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/11A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/12B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/12C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 12, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/12A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/13B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/13C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 13, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/13A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/14B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/14C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 14, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/14A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/15B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/15C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 15, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/15A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/16C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/16B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 16, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/16A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/17C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/17B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 17, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/17A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/18C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/18B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 18, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/18A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/19C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/19B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 19, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/19A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/20C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/20B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 20, 'Covered': u'None', 'Original': u&quot;'Faces/Faces2/20A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/21C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/21B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 21, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/21A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/22C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/22B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 22, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/22A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/23C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/23B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 23, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/23A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/24C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/24B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 24, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/24A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/25C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/25B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 25, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/25A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/26B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/26C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 26, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/26A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/27B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/27C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 27, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/27A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/28B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/28C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 28, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/28A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/29B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/29C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 29, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/29A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/30B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/30C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 30, 'Covered': u'None', 'Original': u&quot;'Faces/Faces3/30A.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/31b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/31c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 31, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/31a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/32b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/32c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 32, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/32a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/33b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/33c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 33, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/33a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/34b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/34c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 34, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/34a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/35b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/35c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 35, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/35a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/36c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/36b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 36, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/36a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/37c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/37b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 37, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/37a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/38c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/38b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 38, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/38a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/39c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/39b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 39, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/39a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/40c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/40b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 40, 'Covered': u'None', 'Original': u&quot;'Faces/Faces4/40a.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/101C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/101B.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 101, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/1A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/102B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/102C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 102, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/2A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/103B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/103C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 103, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/3A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/104B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/104C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 104, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/4A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/105B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/105C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 105, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/5A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/106C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/106B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 106, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/6A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/107C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/107B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 107, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/7A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/108C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/108B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 108, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/8A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/109C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/109B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 109, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/9A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/110C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/110B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 110, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces1/10A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/111C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/111B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 111, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/11A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/112C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/112B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 112, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/12A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/113C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/113B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 113, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/13A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/114C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/114B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 114, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/14A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/115C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/115B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 115, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/15A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/116B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/116C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 116, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/16A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/117B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/117C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 117, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/17A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/118B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/118C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 118, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/18A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/119B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/119C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 119, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/19A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/120B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/120C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 120, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces2/20A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/121B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/121C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 121, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/21A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/122B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/122C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 122, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/22A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/123B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/123C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 123, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/23A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/124B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/124C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 124, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/24A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/125B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/125C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 125, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/25A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/127C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/126B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 126, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/27A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/127C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/127B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 127, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/27A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/128C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/128B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 128, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/28A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/129C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/129B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 129, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/29A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/130C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/130B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 130, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces3/30A.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/131c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/131b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 131, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/31a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/132c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/132b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 132, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/32a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/133c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/133b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 133, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/33a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/134c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/134b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 134, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/34a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/135c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/135b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 135, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/35a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/136b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/136c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 136, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/36a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/137b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/137c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 137, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/37a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/138b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/138c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 138, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/38a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/139b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/139c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 139, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/39a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/140b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/140c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 140, 'Covered': u'Eyes', 'Original': u&quot;'Faces/Faces4/40a.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/201C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/201B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 201, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/1A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/202C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/202B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 202, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/2A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/203C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/203B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 203, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/3A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/204C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/204B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 204, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/4A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/205C.jpg&quot;, 'Same': u&quot;'Faces/Faces1/205B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 205, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/5A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/206B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/206C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 206, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/6A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/207B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/207C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 207, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/7A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/208B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/208C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 208, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/8A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/209B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/209C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 209, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/9A.jpg&quot;}, {'Different': u&quot;'Faces/Faces1/210B.jpg&quot;, 'Same': u&quot;'Faces/Faces1/210C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 210, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces1/10A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/211B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/211C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 211, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/11A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/212B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/212C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 212, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/12A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/213B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/213C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 213, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/13A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/214B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/214C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 214, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/14A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/215B.jpg&quot;, 'Same': u&quot;'Faces/Faces2/215C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 215, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/15A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/216C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/216B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 216, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/16A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/217C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/217B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 217, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/17A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/218C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/218B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 218, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/18A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/219C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/219B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 219, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/19A.jpg&quot;}, {'Different': u&quot;'Faces/Faces2/220C.jpg&quot;, 'Same': u&quot;'Faces/Faces2/220B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 220, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces2/20A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/221C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/221B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 221, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/21A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/222C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/222B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 222, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/22A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/223C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/223B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 223, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/23A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/224C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/224B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 224, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/24A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/225C.jpg&quot;, 'Same': u&quot;'Faces/Faces3/225B.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 225, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/25A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/226B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/226C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 226, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/26A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/227B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/227C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 227, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/27A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/228B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/228C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 228, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/28A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/229B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/229C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 229, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/29A.jpg&quot;}, {'Different': u&quot;'Faces/Faces3/230B.jpg&quot;, 'Same': u&quot;'Faces/Faces3/230C.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 230, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces3/30A.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/231b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/231c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 231, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/31a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/232b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/232c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 232, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/32a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/233b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/233c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 233, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/33a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/234b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/234c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 234, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/34a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/235b.jpg&quot;, 'Same': u&quot;'Faces/Faces4/235c.jpg&quot;, 'CorrectAns': u'right', 'SetNum': 235, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/35a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/236c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/236b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 236, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/36a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/237c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/237b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 237, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/37a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/238c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/238b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 238, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/38a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/239c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/239b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 239, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/39a.jpg&quot;}, {'Different': u&quot;'Faces/Faces4/240c.jpg&quot;, 'Same': u&quot;'Faces/Faces4/240b.jpg&quot;, 'CorrectAns': u'left', 'SetNum': 240, 'Covered': u'Mouth', 'Original': u&quot;'Faces/Faces4/40a.jpg&quot;}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="break_2"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
