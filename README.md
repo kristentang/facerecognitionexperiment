@@ -11,8 +11,8 @@ A presentation of the summary of this experiment can be found and referenced in 
 
   
 ## Hypotheses
-Null Hypothesis: There is no difference in face recognition when nothing is covered, mouth is covered, or eyes are covered 
-Hypothesis 1: Face recognition is the best when nothing is covered 
+Null Hypothesis: There is no difference in face recognition when nothing is covered, mouth is covered, or eyes are covered\
+Hypothesis 1: Face recognition is the best when nothing is covered\
 Hypothesis 2: Face recognition is the worst when eyes are covered
 
 ## Methods
