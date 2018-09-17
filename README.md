@@ -14,7 +14,7 @@ Hypothesis 1: Face recognition is the best when nothing is covered
 Hypothesis 2: Face recognition is the worst when eyes are covered
 
 ## Methods
-The experiment was created and run on PsychoPy. 
+The experiment was created and run on PsychoPy. The PsychoPy file can be found here and viewed here, and specfics of the experiment methocs can be found <a href = "https://facerecognitionexperiment/results/Presentation.pdf">here</a>
 
 ## Results 
 The data was analyzed using SPSS. 
