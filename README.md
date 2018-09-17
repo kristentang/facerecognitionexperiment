@@ -8,7 +8,7 @@ March 2018
 
 There are several different views as to how faces are perceived. Some think that facial features are viewed and processed as parts but also in relation to one another. Other studies have found evidence suggesting that faces are simply perceived based off the sum of their individual features. In this study, we explore how the brain recognizes particular features and how the omission of certain features, the eyes and mouth, impacts the ability to recognize a face. We looked at this by testing how recognition accuracy differed when these facial features were covered. We found a significant difference in sensitivity when eyes were covered but no significant difference when the mouth was covered, indicating that the eyes are more important in facial recognition than the mouth. 
 
-A presentation of the summary of this experiment can be found and referenced <a href = "https://github.com/kristentangfacerecognitionexperiment/results/Presentation.pdf">here</a>. 
+A presentation of the summary of this experiment can be found and referenced in the "results" file. 
 
   
 ## Hypotheses
@@ -17,10 +17,10 @@ Hypothesis 1: Face recognition is the best when nothing is covered
 Hypothesis 2: Face recognition is the worst when eyes are covered
 
 ## Methods
-The experiment was created and run on PsychoPy. The PsychoPy experiment files can be found <a href = "https://kristentang.github.io/facerecognitionexperiment/experiment/Experiment.psyexp">here</a>. 
+The experiment was created and run on PsychoPy. The PsychoPy experiment files can be found in the "experiment" file. 
 
 ## Results 
-The data was analyzed using SPSS.The data can be found here and the results can be found here. 
+The data was analyzed using SPSS.The data can be found here and the results can be found in the "data" file.  
 <img src = "https://kristentang.github.io/photos/faces1.jpg" width = 50%>
 <img src = "https://kristentang.github.io/photos/faces2.jpg" width = 50%>
 
