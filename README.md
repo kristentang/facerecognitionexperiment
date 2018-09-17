@@ -20,7 +20,9 @@ The experiment was created and run on PsychoPy. The PsychoPy file can be found <
 The data was analyzed using SPSS.\
 <img src = "https://kristentang.github.io/photos/faces1.jpg" width = 50%>
 <img src = "https://kristentang.github.io/photos/faces2.jpg" width = 50%>
+
 The figure shows the mean forced choice sensitivity over the three conditions. In this study, sensitivity is the ability to identify a previously shown face and discriminate between that face and a distractor face. This shows the highest ability to recognize a previously shown face when nothing is covered and the lowest ability to recognize a previously shown face when the eyes are covered. 
 
 <img src = "https://kristentang.github.io/photos/faces3.jpg">
+
 The significant difference in sensitivity between nothing covered and eyes covered indicates that eyes play a significant role in facial recognition. Since there is no significant difference between the sensitivities for nothing covered and mouth covered, we can conclude that the mouth does not play a significant role in facial recognition. The significant difference in sensitivity between eyes covered and mouth covered indicates that eyes are more instrumental in facial recognition than mouth. From this we also draw the conclusion that the feature being covered, not just the fact that part of the face was being blocked, affected facial recognition ability. 
